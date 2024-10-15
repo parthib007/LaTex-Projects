@@ -1,0 +1,69 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb,amsfonts,amsmath}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+\parindent 0px
+
+\title{Document-Font Formatting in \LaTeX\ format}
+\author{Parthib Das}
+\date{\today}
+
+\begin{document}
+\maketitle
+\pagebreak
+\tableofcontents
+
+\pagebreak
+This text is in \textit{italics}\\
+This text is in \textbf{bold}\\
+This will produce \textsc{small caps} text\\
+This will produce \texttt{https://www.google.com} text\\
+This will produce \href{http://www.google.com}{My Website}\\
+
+\vspace{1cm}
+
+Hello my name is Parthib Das\\[6pt]
+Hello my name is \begin{large}Parthib Das\end{large}\\[6pt]
+Hello my name is \begin{Large}Parthib Das\end{Large}\\[6pt]
+Hello my name is \begin{huge}Parthib Das\end{huge}\\[6pt]
+Hello my name is \begin{Huge}Parthib Das\end{Huge}\\[6pt]
+
+Hello my name is \begin{normalsize}Parthib Das
+\end{normalsize}\\[6pt]
+Hello my name is \begin{small}Parthib Das\end{small}\\[6pt]
+Hello my name is \begin{scriptsize} Parthib
+Das\end{scriptsize}\\[6pt]
+Hello my name is \begin{tiny}Parthib Das\end{tiny}\\[6pt]
+
+\vspace{1cm}
+
+\begin{samepage}
+\begin{center}
+This is in center
+\end{center}
+\begin{flushleft}
+This is left justified
+\end{flushleft}
+\begin{flushright}
+This is right justified
+\end{flushright}
+\end{samepage}
+
+\section{Linear Functions}
+	\subsection{Slope format}
+		\subsubsection*{snippet}
+		\subsubsection*{example}
+	\subsection{Intercept format}
+		\subsubsection*{snippet}
+		\subsubsection*{example}
+\section{Quadratic Functions}
+	\subsection{Increasing}
+		\subsubsection*{snippet}
+		\subsubsection*{example}
+	\subsection{Decreasing}
+		\subsubsection*{snippet}
+		\subsubsection*{example}
+
+\end{document}

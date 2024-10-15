@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\parindent 0px
+%\usepackage{fullpage}
+%\usepackage[top=1in, bottom=1in, left=0.5in, right=0.5in, paperwidth=5in, paperheight=7in]{geometry}
+
+\usepackage{amsmath, amssymb, amsfonts}
+
+\def\eq1{y=\dfrac{x}{3x^2+5x+7}}
+
+\usepackage{graphicx}
+
+\begin{document}
+Hello user\\[6pt]
+How you doing? I hope you are fine.
+
+This document is written in \LaTeX\ format.
+$$\eq1$$
+\vspace{1cm}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{download}
+\end{center}
+
+
+\end{document}

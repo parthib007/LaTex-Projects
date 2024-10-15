@@ -1,0 +1,11 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb, amsfonts}
+\usepackage{float}
+\parindent 0px
+
+\begin{document}
+A quadratic equation is of the form: $ax^2+bx+c=0$\\[6pt]
+Its roots will of the form:\\
+$$x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+\end{document}
